@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pratham.showcaseview.MainActivity">
+    <item
+        android:id="@+id/action_speaker_hindi"
+        android:icon="@drawable/ic_speaker"
+        android:title="@string/action_speaker"
+        android:actionLayout="@layout/image_view_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_check_hindi"
+        android:orderInCategory="100"
+        android:checkable="true"
+        android:title="@string/action_hindi"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_speaker_eng"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_speaker"
+        android:title="@string/action_speaker"
+        android:actionLayout="@layout/image_view_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_check_eng"
+        android:orderInCategory="100"
+        android:checkable="true"
+        android:title="@string/action_english"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="ifRoom|withText" />
+</menu>

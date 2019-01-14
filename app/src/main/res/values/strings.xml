@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Digital Assessment</string>
+    <string name="action_speaker">Speaker</string>
+    <string name="action_hindi">H</string>
+    <string name="action_english">E</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="custom_showcase_width">96dip</dimen>
+    <dimen name="custom_showcase_height">48dip</dimen>
+</resources>
